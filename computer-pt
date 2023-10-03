@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        /* Customize colors and styles as desired */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-image">
+            <img src="your-profile-image.jpg" alt="Your Name">
+        </div>
+        <h1>Your Name</h1>
+        <p>Welcome to my cute little corner of the internet! I'm a passionate [your profession/hobby], and I love [something you're passionate about]. When I'm not [what you do], you can find me [hobbies or interests].</p>
+        
+        <div class="social-links">
+            <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
+            <a href="https://instagram.com/yourusername" target="_blank">Instagram</a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+</body>
+</html>
